@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddVeiculo">
+
+    <ImageView
+        android:id="@+id/activity_add_veiculo_icone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@android:drawable/ic_menu_camera"
+        app:maxImageSize="56dp" />
+
+    <EditText
+        android:id="@+id/activity_add_veiculo_edit_modelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/modelo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/activity_add_veiculo_edit_marca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/marca"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/activity_add_veiculo_edit_placa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/placa"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/activity_add_veiculo_edit_diaria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/diaria"
+        android:inputType="number|textPersonName" />
+
+
+    <Button
+        android:id="@+id/activity_add_veiculo_botao_adicionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionarVeiculo" />
+    <Button
+        android:id="@+id/activity_add_veiculo_botao_cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar" />
+</LinearLayout>

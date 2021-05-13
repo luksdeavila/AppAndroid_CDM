@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vehicles</string>
+
+
+    //Main
+    <string name="veiculos">Vehicles</string>
+    <string name="modelo">Model</string>
+    <string name="marca">Brand</string>
+    <string name="placa">Plate</string>
+    <string name="diaria">Value</string>
+    <string name="remover">Remove</string>
+
+    //AddVeiculo
+    <string name="adicionandoVeiculo">Adding vehicle</string>
+    <string name="atualizandoVeiculo">Updating vehicle</string>
+    <string name="adicionarVeiculo">Add vehicle</string>
+    <string name="atualizarVeiculo">Update vehicle</string>
+    <string name="cancelar">Cancel</string>
+
+    //SelecionaIdioma
+    <string name="text_tela_inicial">Select your language</string>
+    <string name="botao_tela_inicial">Log in</string>
+
+</resources>

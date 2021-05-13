@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">LocaApp</string>
+
+
+    //Main
+    <string name="veiculos">Veículos</string>
+    <string name="modelo">Modelo</string>
+    <string name="marca">Marca</string>
+    <string name="placa">Placa</string>
+    <string name="diaria">Diária</string>
+    <string name="remover">Remover</string>
+
+
+    //AddVeiculo
+    <string name="adicionandoVeiculo">Adicionando veículo</string>
+    <string name="atualizandoVeiculo">Atualizando veículo</string>
+    <string name="adicionarVeiculo">Adicionar veículo</string>
+    <string name="atualizarVeiculo">Atualizar veículo</string>
+    <string name="cancelar">Cancelar</string>
+
+    //SelecionaIdioma
+    <string name="text_tela_inicial">Selecione o seu idioma</string>
+    <string name="botao_tela_inicial">Entrar</string>
+</resources>
